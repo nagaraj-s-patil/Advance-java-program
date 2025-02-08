@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search Design</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000; /* Black background */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .searchClass {
+            width: 100%;
+            max-width: 500px;
+            padding: 20px;
+            background-color: #333; /* Dark background for the search section */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+        .searchClass form {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .searchClass input[type="search"] {
+            width: 80%;
+            padding: 10px 15px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            transition: border 0.3s ease, box-shadow 0.3s ease;
+        }
+        .searchClass input[type="search"]:focus {
+            border-color: #007BFF;
+            outline: none;
+            box-shadow: 0 0 10px #007BFF; /* Glowing effect */
+        }
+        .searchClass button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        .searchClass button:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <section class="searchClass">
+        <form action="" method="">
+            <input type="search" placeholder="What are you looking for?">
+            <button>Search</button>
+        </form>
+    </section>
+</body>
+</html>
